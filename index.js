@@ -7,7 +7,7 @@ app.listen(process.env.PORT || 3000);
 
 function createBot() {
     const bot = mineflayer.createBot({
-        host: 'superturbocinarmc.servegame.com', // Sunucu IP'sini yazın
+        host: 'superturbocinarmc.mcsh.io', // Sunucu IP'sini yazın
         port: 25565,
         username: 'babapiromcoyuncu',   // Bot adı
         version: '1.20.1'         // Sunucu sürümü
